@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O-X-A-N-A</title>  <!--aka mi primera web-->
+    <script src="https://kit.fontawesome.com/df319b9bce.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Indie+Flower&family=Playpen+Sans:wght@300;400&display=swap" rel="stylesheet"> <!--fonts for the text-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Playpen+Sans:wght@300;400&display=swap" rel="stylesheet"> <!--fonts for hh-->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <h1 class="logo">
+                <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+            </h1>
+            <!--<input type="checkbox" id="check" />-->
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="navbar active">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="section_1">About</a></li>
+                    <li><a href="section_3">Stuff</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        
+        <main id="main_section">
+            <section class="section_1">
+                <div class="about-image">
+                    <img src="img/selfie_me2.jpg" alt="Picture of me" />
+                </div>
+                <div class="about">
+                    <h2 class="abt_me">About me</h2>
+                    <p class="paragraph_1">Welcome to my world! Buckle up and let's begin.</p>
+                    <p class="paragraph_2">My name is Oxana. I like arts and crafts. Basically, my hobby is to try artistic hobbies. So, you name it. Ah, I'll try to keep evidence of them but it's not a promise...</p>
+                </div>               
+            </section>
+            
+            <section class="section_2">
+                <img src="img/car04.jpg" alt="carousel_1" />
+            </section>
+            
+            <section class="section_3">
+                <h2>Stuff</h2>
+                <div class="stuff_cards">
+                    <div class="cards">
+                        <div class="stuff_image">
+                            <img src="img/scrap0.jpg" alt="Scrapbooking" />
+                        </div>
+                        <div class="stuff_about">
+                            <h3>Scrapbooking</h3>
+                            <span class="stuff_text">I do some scrapbooking and I can show some.</span>
+                        </div>
+                        <a href="Scrapbooking">More</a>
+                    </div>
+                    
+                    <div class="cards">
+                        <div class="stuff_image">
+                            <img src="img/box0.jpg" alt="Boxes" />
+                        </div>
+                        <div class="stuff_about">
+                            <h3>Boxes</h3>
+                            <span class="stuff_text">I create useful gift boxes for kids. So, the box itself is a part of a present.</span>
+                        </div>
+                        <a href="Boxes">More</a>
+                    </div>
+                    
+                    <div class="cards">
+                        <div class="stuff_image">
+                            <img src="img/sketching0.jpg" alt="Sketching" />
+                        </div>
+                        <div class="stuff_about">
+                            <h3>Sketching</h3>
+                            <span class="stuff_text">I randomly draw. No education, no technique. Just hustle.</span>
+                        </div>
+                        <a href="Sketching">More</a>
+                    </div>
+                    
+                    <div class="cards">
+                        <div class="stuff_image">
+                            <img src="img/other0.jpg" alt="Other" />
+                        </div>
+                        <div class="stuff_about">
+                            <h3>Other</h3>
+                            <span class="stuff_text">Other individual crafts. Mostly recycled or upcycled stuff.</span>
+                        </div>
+                        <a href="other">More</a>
+                    </div>
+            </div>
+            </section>
+
+            <section class="section_4">
+                <h2>Contact</h2>
+                <span class="contact_greeting">Send me your questions.</span>
+
+                <form action="" method="get" class="contact_form">
+                    <div class="form_row">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <div class="form_row">
+                        <label for="email">email:</label>
+                        <input id="email" name="email" type="email" placeholder="name@email.com" required />
+                    </div>
+
+                    <div class="form_row">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+
+                    <div class="form_row">
+                        <button type="submit" id="submit">Send</button>
+                    </div>
+
+                    <p class="warning" id="warning"></p>
+                </form>
+            </section>
+
+        </main>
+       
+        <footer>
+            <h3>Also me</h3>
+            <ul>
+                <li>Instagram</li>
+                <li>email</li>
+            </ul>  
+            <a href="index.html"><i class="fa-solid fa-heart"></i></a>                      
+        </footer>
+
+       </div>
+</body>
+</html>

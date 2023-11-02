@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+    background-color: #fffaf0; /*Floral White*/
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2, h3 {
+    font-family: 'Fredericka the Great', serif;
+    color: #442288; /*Galactic Civilization*/
+}
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: #96e2e1; /*Aqua Fiesta*/
+    flex-direction: row; /*Don't need*/
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-bottom: 0.1em; 
+    padding-right: 100%;   
+}
+
+header h1.logo i {
+    display: inline-block;
+    color: #ff91af; /*Baker-Miller Pink*/
+    font-size: 2em;
+    padding: 0.3em;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+
+header nav {
+    height: 80px;
+    float: right;
+}
+
+header nav ul.menu {
+    float: right;
+}
+
+header ul.menu li {
+    display: inline-block;
+    line-height: 80px;
+    gap: 2.3em;
+    padding-right: 2em;
+}
+
+header nav ul.menu li a {
+    color: #ff91af; /*Baker-Miller Pink*/
+    font-size: 1.3em;
+}
+
+.section_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10em 10em 5em 10em;
+    margin-top: 5em;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: #ff91af; /*Baker-Miller Pink*/
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.about {
+    padding: 1em;
+    color: #442288; /*Galactic Civilization*/    
+}
+
+.about p {
+    font-size: 1.2em;
+}
+
+.about-image img {
+    border-radius: 2em;
+}
+
+.section_2 {
+    width: 100%;
+    background-color: #96e2e1; /*Aqua Fiesta*/;
+    margin-bottom: 5em;
+    display: flex;
+    justify-content: center;
+    padding-right: 100%;
+}
+
+.section_2 img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section_3 h2 {
+    padding-left: 5em;
+}
+
+.stuff_cards {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+    padding: 5em;
+    padding-top: 2em;
+}
+
+.cards {
+    background-color: #96e2e1; /*Aqua Fiesta*/
+    padding: 2em;
+    height: 25em;
+    max-width: 24.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1.5em;
+    border-radius: 3px;
+}
+
+.stuff_image img {
+    height: 15em;
+    border-radius: 0.5em;    
+}
+
+.stuff_about {
+    max-width: 20em;
+}
+
+.stuff_text {
+    color: #ff91af; /*Baker-Miller Pink*/
+    font-size: 1.1em;
+}
+
+.cards a {
+    font-family: 'Indie Flower', cursive;    
+    border: none;
+    color: #ff91af; /*Baker-Miller Pink*/
+    position: relative;
+    left: 15em;
+    font-size: 1.1em;
+}
+
+.section_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.section_4 h2 {
+    margin: 0.2em;
+}
+
+.contact_greeting {
+    color: #442288; /*Galactic Civilization*/
+    padding-bottom: 1em;
+}
+
+.contact_form {
+    background-color: #96e2e1; /*Aqua Fiesta*/
+    border: 1px solid #442288; /*Galactic Civilization*/
+    border-radius: 3px;
+    padding: 1.2em;
+    width: 30%;    
+}
+
+.form_row {
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #ff91af; /*Baker-Miller Pink*/
+    margin: 1em;
+}
+
+.form_row input[type="text"],
+.form_row input[type="email"],
+.form_row textarea {
+    background-color: #fffaf0; /*Floral White*/
+    border: 0;
+    border-radius: 2px;
+    width: 100%;
+    padding: 0.2em 0.1em;
+    font-size: 14px;
+    font-family: 'Indie Flower', cursive;
+    color: #442288; /*Galactic Civilization*/
+}
+
+.form_row textarea {
+    min-height: 4em;
+    margin-bottom: 1.1em;
+    resize: none;
+}
+
+.form_row label {
+    font-weight: bolder;
+}
+
+.form_row button {
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    background-color: #442288; /*Galactic Civilization*/
+    color: #fffaf0; /*Floral White*/
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    padding: 0.3em;
+    cursor: pointer;
+}
+
+.form_row button:hover {
+    background-color: #633bb5;
+}
+
+.form_row button:active {
+    background-color: #492298;
+}
+
+footer {
+    width: 100%;
+    color: #442288; /*Galactic Civilization*/
+    background-color: #96e2e1; /*Aqua Fiesta*/
+    padding: 1.5em;
+    font-size: 1.2em;
+}
+
+footer a i {
+    color: #ff91af; /*Baker-Miller Pink*/
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+}
+
+/* #check {
+    display: none;
+} */
+
+.checkbtn {
+    font-size: 25px;
+    color: #ff91af; /*Baker-Miller Pink*/
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    header {
+        background-color: #96e2e1; /*Aqua Fiesta*/
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .navbar {
+        height: 0vh;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        width: 100%;
+        background:  #96e2e1; /*Aqua Fiesta*/
+        text-align: center;
+    
+        transition: all 0.5s;
+        overflow: hidden;
+    }
+
+    .navbar ul.menu {
+        float: none;
+        display: block;
+        width: 174px;      
+        opacity: 0;
+    }
+
+    .navbar ul.menu li {
+        display: flex;
+        text-align: center;
+        padding-left: 100%;
+    }
+
+    .navbar ul.menu li a:hover {
+        color: #fffaf0; /*Floral White*/
+    }
+
+    .checkbtn:hover {
+        color: #fffaf0; /*Floral White*/
+    }
+
+    /*ACTIVE*/
+    .navbar.active {
+        height: 100vh;
+    }
+
+    .navbar.active ul.menu {
+        opacity: 1;
+    }
+
+    /*#check:checked ~ ul {
+        left: 0%;
+        display: block;
+    }*/
+
+    /*#check:checked ~ .checkbtn {
+        color: #442288; /*Galactic Civilization
+    }*/
+
+    .section_1 {
+        margin-top: 200px;
+        padding: 10%;
+        flex-wrap: wrap;
+    }
+    
+    .section_2 img {
+        width: 100%;
+    }
+
+    .section_3 h2 {
+        padding-left: 5%;
+    }
+
+    .stuff_cards {
+        width: 100%;
+        padding: 0;
+        padding-top: 2em;
+    }
+
+    .form_row {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .form_row button {
+        padding: 0.3em 1em;        
+    }
+
+    footer {
+        padding: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
