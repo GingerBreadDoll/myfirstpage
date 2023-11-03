@@ -21,7 +21,7 @@ a {
 }
 
 .greeting {
-    
+    opacity: 0;
 }
 
 h2, h3 {
